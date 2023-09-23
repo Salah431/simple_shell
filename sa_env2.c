@@ -10,7 +10,7 @@ char **ge_e(infoo_tt *info)
 {
 	if (!info->environ || info->env_changed)
 	{
-		info->environ = list_to_strings(info->env);
+		info->environ = l_t_s(info->env);
 		info->env_changed = 0;
 	}
 
