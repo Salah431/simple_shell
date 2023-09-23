@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * g_e - returns the string array copy of our environ
+ * ge_e - returns the string array copy of our environ
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
  */
-char **g_e(infoo_tt *info)
+char **ge_e(infoo_tt *info)
 {
 	if (!info->environ || info->env_changed)
 	{

@@ -136,7 +136,7 @@ void fo_cmd(infoo_tt *info)
 	}
 	if (child_pid == 0)
 	{
-		if (execve(info->path, info->argv, g_e(info)) == -1)
+		if (execve(info->path, info->argv, ge_e(info)) == -1)
 		{
 			f_i(info, 1);
 			if (errno == EACCES)

@@ -200,7 +200,7 @@ int m_u_s_e(infoo_tt *);
 int p_e_l(infoo_tt *);
 
 /* sa_env2.c module */
-char **g_e(infoo_tt *);
+char **ge_e(infoo_tt *);
 int u_s_e(infoo_tt *, char *);
 int s_e(infoo_tt *, char *, char *);
 
